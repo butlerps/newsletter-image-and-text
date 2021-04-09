@@ -1,0 +1,29 @@
+}
+.text-left {
+	padding-right:0px !important;
+}
+.text-right {
+	padding-left:0px !important;
+}
+
+@media only screen and (max-width: 480px){
+	#templateColumns{
+		width:100% !important;
+	}
+
+	.templateColumnContainer{
+		display:block !important;
+		width:100% !important;
+	}
+
+	.columnImage{
+		height:auto !important;
+		max-width:480px !important;
+		width:100% !important;
+	}
+	.text-left {
+		padding-right:15px !important;
+	}
+	.text-right {
+		padding-left:15px !important;
+	}
